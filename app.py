@@ -3,7 +3,7 @@ from flask import Flask,request,render_template
 import pandas as pd
 import os
 app= Flask(__name__)
-model = pickle.load(open('model.pkl','rb'))
+model = pickle.load(open('xgb_model.pkl','rb'))
 
 ll=0
 
